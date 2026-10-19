@@ -119,7 +119,7 @@ document.getElementById('year').textContent=new Date().getFullYear();
 /* Retrato: la fotografía se muestra en una capa HTML independiente; el canvas añade el efecto binario.
    Si CORS bloquea la lectura de píxeles, la foto seguirá visible con una matriz decorativa encima.
    Para máxima fiabilidad, sube perfil.jpg junto a index.html y usa PHOTO_URL='perfil.jpg'. */
-const PHOTO_URL='https://oscidec.com/portafolio/perfil.jpg';
+const PHOTO_URL='perfil.jpg';
 const photo=document.getElementById('portraitPhoto');
 const canvas=document.getElementById('binaryPortrait'),ctx=canvas.getContext('2d');
 const statusEl=document.getElementById('portraitStatus');
