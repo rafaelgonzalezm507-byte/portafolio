@@ -117,7 +117,7 @@ document.getElementById('year').textContent=new Date().getFullYear();
 /* Retrato tipográfico: toma píxeles de la foto y los dibuja como 0 y 1.
    Para máxima compatibilidad, guarda la foto junto a index.html como perfil.jpg
    y cambia PHOTO_URL a 'perfil.jpg'. La URL remota requiere permiso CORS del servidor. */
-const PHOTO_URL='https://oscidec.com/portafolio/perfil.jpg';
+const PHOTO_URL='perfil.jpg';
 const canvas=document.getElementById('binaryPortrait'),ctx=canvas.getContext('2d');
 const statusEl=document.getElementById('portraitStatus');
 const img=new Image();img.crossOrigin='anonymous';
